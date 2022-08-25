@@ -228,7 +228,7 @@ function App() {
         Пошлина: {posh} $ {posh > 0 ? "+ 500 p." : ""}<br></br>
       </h5>
       <h3>
-        Конечная цена в долларах: {parseFloat(Number(priceInUSD) + Number(shipTurcInUSD) + Number(shipLMF) + Number(commisVikup) + Number(strah) + Number(posh)).toFixed(2)} $ {posh > 0 ? "+ 500 p. za oformlen blanka za poshlinu" : ""}
+        Конечная цена в долларах: {parseFloat(Number(priceInUSD) + Number(shipTurcInUSD) + Number(shipLMF) + Number(commisVikup) + Number(strah) + Number(posh)).toFixed(2)} $ {posh > 0 ? "+ 500 руб. за оформление бланка за пошлину" : ""}
       </h3>
       <br></br><br></br>
       <label>
